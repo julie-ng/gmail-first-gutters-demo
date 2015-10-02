@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+table td {
+  border-collapse: collapse;
+}
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+table {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.yshortcuts a {
+  border-bottom: none !important;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+.banner,
+.intro {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.col-1-td {
+  padding-left: 20px !important;
+  padding-right: 10px !important;
+}
+
+.col-2-td {
+  padding-left: 10px !important;
+  padding-right: 20px !important;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .col {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .col {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .banner,
+  .intro,
+  .col td {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .image img {
+    width: 100% !important;
+  }
+
+  .title {
+    padding-top: 10px;
+  }
+}
